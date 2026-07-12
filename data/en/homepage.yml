@@ -20,8 +20,8 @@ slider:
       animation_out : "right"
       # available animation : left, right, up, down
       button:
-        label : "Apply now"
-        link : "admissions/apply/"
+        label : "Tuition"
+        link : "admissions/tuition/"
 
     # slider item loop
     - title : "Our Mission Statement"
