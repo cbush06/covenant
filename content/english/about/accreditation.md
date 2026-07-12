@@ -6,15 +6,14 @@ bg_image: "images/backgrounds/page-title.jpg"
 # about image
 image: "images/about/about-page.jpg"
 # meta description
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description: "CCA is fully accredited through Lighthouse Christian Academy in Tennessee and uses the PACE curriculum from Accelerated Christian Education (A.C.E.)."
 ---
 
 ## Accreditation
 Through hands-on education and ongoing training seminars, Christian Covenant Academy has earned A.C.E. quality status
-and is fully accredited through Lighthouse Christian Academy in Tennessee.
+and is fully accredited through [Lighthouse Christian Academy](https://aceschooloftomorrow.com/lca) in Tennessee.
 
-We use the PACE curriculum from Accelerated Christian Education (A.C.E.) in Tennessee. (Below is a YouTube video that
-explains the PACE program in more detail.)
+We use the PACE curriculum from [Accelerated Christian Education (A.C.E.)](https://aceschooloftomorrow.com/about-us).
 
 We serve students from 1st through 12th grade. Our small size allows us to offer meaningful one-on-one attention,
 helping each student grow academically and spiritually. We enjoy taking monthly field trips, building memories and

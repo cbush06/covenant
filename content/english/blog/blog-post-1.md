@@ -1,18 +1,18 @@
 ---
-title: "Elegant Light Box Paper Cut Dioramas"
+title: "Kayaking Trip"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "We took our high schoolers on an exciting and educational kayaking trip."
 # post thumbnail
-image: "images/blog/post-1.jpg"
+image: "images/blog/kayaking.jpg"
 # post author
-author: "John Doe"
+author: "Lori Horne"
 # taxonomy
-categories: ["Automation System"]
-tags: ["Advice", "Automation"]
+categories: ["Student Life"]
+tags: ["Field Trips"]
 # type
 type: "post"
 ---

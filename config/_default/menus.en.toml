@@ -9,11 +9,25 @@ weight = 1
     parent = "About"
     name = "Our Story"
     url = "about/"
+    weight = 1
 
     [[main]]
     parent = "About"
     name = "Our Teachers"
     url = "teacher/"
+    weight = 2
+
+    [[main]]
+    parent = "About"
+    name = "Mission & Vision Statements"
+    url = "about/mission-vision/"
+    weight = 3
+
+    [[main]]
+    parent = "About"
+    name = "Accreditation"
+    url = "about/accreditation/"
+    weight = 4
 
 [[main]]
 name = "Admissions"
