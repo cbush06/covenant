@@ -1,0 +1,12 @@
+################################### English language #####################################
+[en]
+label = "En"
+locale = "en-us"
+contentDir = "content/english"
+weight = 1
+
+[en.params]
+brand = "Christian Covenant Academy"
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"

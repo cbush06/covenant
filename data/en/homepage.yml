@@ -1,0 +1,155 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "An education founded in the Word of God"
+      content : "The fear of the Lord is the beginning of knowledge:  But fools despise wisdom & instruction.  Proverbs 1:7"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        label : "Apply now"
+        link : "admissions/apply/"
+
+    # slider item loop
+    - title : "A private school you can both trust and afford"
+      content : "Tuition is $5,000 per year, along with a $150 non‑refundable deposit."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        label : "Apply now"
+        link : "admissions/apply/"
+
+    # slider item loop
+    - title : "Our Mission Statement"
+      content : "The Mission of Christian Covenant Academy is to help parents train students to serve God by providing an excellent academic education while developing areas of Christian leadership, respect, self discipline, obedience and patriotism."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        label : "Apply now"
+        link : "admissions/apply/"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Scholarships, Costs, and Payment Options"
+      icon : "ti-money" # icon pack : https://themify.me/themify-icons
+      content : "Believing that God equips every family He calls, we offer multiple payment options. Scholarships may also be available."
+      button:
+        link: "admissions/tuition/"
+        label: "Tuition Plans & Pricing"
+
+    # feature item loop
+    - name : "Our Curriculum"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "We use the Accelerated Christian Education (ACE) curriculum--biblically based learning program that allows students to learn at their own pace."
+      button:
+        link: "https://aceschooloftomorrow.com/about-us"
+        label: "Learn more about ACE"
+        target: "_blank"
+
+    # feature item loop
+    - name : "Mission Statement"
+      icon : "ti-heart" # icon pack : https://themify.me/themify-icons
+      content : "The Mission of Christian Covenant Academy is to help parents train students to serve God by providing an excellent academic education while developing areas of Christian leadership, respect, self discipline, obedience and patriotism."
+      button:
+        link: "about/mission/"
+        label: "Our Mission and Vision Statements"
+
+    # feature item loop
+    - name : "Admissions"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "CCA is a welcoming school that is open to all students who are willing to learn and grow in a Christ-centered environment. We are committed to providing a safe and nurturing environment for all students."
+      button:
+        label: "Admissions Criteria & Process"
+        link: "admissions/"
+
+
+############################## about ##################################
+about:
+  enable : false
+  title : "About Educenter"
+  image : "images/about/about-us.jpg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
+
+
+  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about/"
+
+
+############################# Course ################################
+course:
+  enable : false
+  title : "Recent Activities"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Apply for Admission"
+  title : "Join the Christian Covenant Academy family today!"
+  button:
+    enable : true
+    label : "Apply Now!"
+    link : "admissions/apply/"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Success Stories"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+            
+            
+  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
+event:
+  enable : false
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : false
+  funfact_item:
+    # funfact item loop
+    - name : "TEACHERS"
+      count : "2"
+
+    # funfact item loop
+    - name : "GRADES"
+      count : "12"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "15"
+
+    # funfact item loop
+    - name : "BIBLICAL"
+      count : "100"
+
+# funfact is for about page
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Latest News"
+  # blog item comes from "content/**/blog" folder.

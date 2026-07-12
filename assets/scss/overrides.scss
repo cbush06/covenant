@@ -1,0 +1,70 @@
+@import "../../themes/educenter-hugo/assets/scss/variables";
+
+.navbar-brand {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 80%;
+
+    picture {
+        flex: 1 0.5 5rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        max-height: 5rem;
+
+        img {
+            object-fit: contain;
+            max-height: 100%;
+            width: auto;
+        }
+    }
+
+    .brand-text {
+        display: inline-block;
+
+        flex: 0 2 auto;
+
+        font-family: Cinzel, serif;
+        text-align: center;
+        text-wrap-mode: wrap;
+        font-size: clamp(1.2rem, 1.8rem, 2vw);
+    }
+}
+
+footer {
+    .footer {
+        .logo-footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+            max-height: 10rem;
+            margin-bottom: 1rem;
+
+            picture img {
+                object-fit: contain;
+                max-height: 100%;
+                width: auto;
+            }
+        }
+        li.email a {
+            text-transform: none !important;
+        }
+    }
+}
+
+.content {
+    img {
+        max-width: 100%;
+    }
+}
+
+figcaption, figcaption h4 {
+    color: $text-color-light;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+}

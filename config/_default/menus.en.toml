@@ -1,0 +1,141 @@
+################### English navigation ####################
+
+# main menu
+[[main]]
+name = "About"
+hasChildren = true
+weight = 1
+    [[main]]
+    parent = "About"
+    name = "Our Story"
+    url = "about/"
+
+    [[main]]
+    parent = "About"
+    name = "Our Teachers"
+    url = "teacher/"
+
+[[main]]
+name = "Admissions"
+url = "course/"
+weight = 2
+hasChildren = true
+  [[main]]
+  parent = "Admissions"
+  name = "Admission Process"
+  url = "admissions/"
+  weight = 1
+
+  [[main]]
+  parent = "Admissions"
+  name = "Tuition"
+  url = "admissions/tuition/"
+  weight = 5
+
+  [[main]]
+  parent = "Admissions"
+  name = "Apply Now!"
+  url = "admissions/apply/"
+  weight = 10
+
+[[main]]
+weight = 3
+name = "Student Life"
+hasChildren = true
+
+  [[main]]
+  parent = "Student Life"
+  name = "Current Events"
+  url = "life/"
+
+  [[main]]
+  parent = "Student Life"
+  name = "School Calendar"
+  url = "life/calendar/"
+
+  [[main]]
+  parent = "Student Life"
+  name = "Student Handbook"
+  url = "life/handbook/"
+
+#[[main]]
+#name = "blog"
+#url = "blog/"
+#weight = 4
+  
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 5
+
+
+# footer menu
+
+[[footer]]
+name = "School"
+hasChildren = true
+weight = 1
+  [[footer]]
+  parent = "School"
+  name = "Home"
+  url = "/"
+
+  [[footer]]
+  parent = "School"
+  name = "Contact"
+  url = "contact/"
+
+[[footer]]
+name = "About"
+hasChildren = true
+weight = 2
+    [[footer]]
+    parent = "About"
+    name = "Our Story"
+    url = "about/"
+
+    [[footer]]
+    parent = "About"
+    name = "Our Teachers"
+    url = "teacher/"
+
+[[footer]]
+name = "Admissions"
+hasChildren = true
+weight = 3
+    [[footer]]
+    parent = "Admissions"
+    name = "Admission Process"
+    url = "admissions/"
+    weight = 1
+
+    [[footer]]
+    parent = "Admissions"
+    name = "Tuition"
+    url = "admissions/tuition/"
+    weight = 2
+
+    [[footer]]
+    parent = "Admissions"
+    name = "Apply Now!"
+    url = "admissions/apply/"
+    weight = 3
+
+[[footer]]
+name = "Student Life"
+hasChildren = true
+weight = 4
+    [[footer]]
+    parent = "Student Life"
+    name = "Current Events"
+    url = "life/"
+
+    [[footer]]
+    parent = "Student Life"
+    name = "School Calendar"
+    url = "life/calendar/"
+
+    [[footer]]
+    parent = "Student Life"
+    name = "Student Handbook"
+    url = "life/handbook/"
