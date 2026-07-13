@@ -1,0 +1,10 @@
+{
+  "content": "content/english",
+  "media": "assets/images",
+  "public": "static",
+  "configs": [
+    "config/_default"
+  ],
+  "custom-commit": false,
+  "arrangement": []
+}
