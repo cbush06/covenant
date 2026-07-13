@@ -1,10 +1,14 @@
 <div class="card border-0 rounded-0 hover-shadow">
   <div class="card-img position-relative">
-    {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "card-img-top rounded-0 object-fit-contain h-auto" ) }}
+    {{ partial "image.html" (dict
+      "Src" .Params.image
+      "Alt" .Title "Class"
+      "card-img-top rounded-0 img-fluid"
+    ) }}
   </div>
   <div class="card-body">
     <!-- location -->
-    <p><i class="ti-location-pin text-primary mr-2"></i>{{ .Params.Location | markdownify }}</p>
+    <p><i class="ti-calendar text-primary mr-2"></i>{{ time.Format "January 2, 2006" .Params.Date }}</p>
     <h4 class="card-title"><a href="{{ .Permalink }}" class="stretched-link">{{ .Title }}</a></h4>
   </div>
 </div>

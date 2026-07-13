@@ -1,5 +1,5 @@
 ---
-title: "Elegant Light Box Paper Cut Dioramas"
+title: "Bowling"
 date: 2019-07-06T09:27:17.000Z
 draft: false
 # page title background image
@@ -9,17 +9,9 @@ description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
   eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim
   veniam, quis nostrud."
 # post thumbnail
-image: "images/blog/post-3.jpg"
+image: "images/blog/bowling.jpg"
 # post author
 author: "Mark Dinn"
-# taxonomy
-categories:
-  - Eco System
-tags:
-  - Advice
-  - Eco
-# type
-type: "post"
 ---
 ### The standard Lorem Ipsum passage, used since the 1500s
 

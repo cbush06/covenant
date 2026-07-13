@@ -10,11 +10,6 @@ description : "We took our high schoolers on an exciting and educational kayakin
 image: "images/blog/kayaking.jpg"
 # post author
 author: "Lori Horne"
-# taxonomy
-categories: ["Student Life"]
-tags: ["Field Trips"]
-# type
-type: "post"
 ---
 
 ### The standard Lorem Ipsum passage, used since the 1500s

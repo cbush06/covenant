@@ -60,7 +60,7 @@ hasChildren = true
   [[main]]
   parent = "Student Life"
   name = "Current Events"
-  url = "life/"
+  url = "life/events/"
 
   [[main]]
   parent = "Student Life"
@@ -142,7 +142,7 @@ weight = 4
     [[footer]]
     parent = "Student Life"
     name = "Current Events"
-    url = "life/"
+    url = "life/events/"
 
     [[footer]]
     parent = "Student Life"

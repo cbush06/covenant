@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<!-- research -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            {{ range $i, $p := .Data.Pages}}
+            <!-- event item -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+                {{ partial "event-card.html" $p }}
+            </div>
+            {{ if eq (mod (add $i 1) 3) 0 }}
+            <div class="w-100"></div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /research -->
+
+{{ end }}

@@ -1,8 +1,9 @@
 ---
-title: "Latest News"
+title: "Current Events"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "this is meta description"
+description: "Keep up with all the great things God is doing at CCA!"
 ---
+
