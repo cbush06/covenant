@@ -1,5 +1,5 @@
 ---
-title: "Current Events"
+title: "Life at Covenant"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

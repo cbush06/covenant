@@ -59,7 +59,7 @@ hasChildren = true
 
   [[main]]
   parent = "Student Life"
-  name = "Current Events"
+  name = "Life at Covenant"
   url = "life/events/"
 
   [[main]]
@@ -141,7 +141,7 @@ hasChildren = true
 weight = 4
     [[footer]]
     parent = "Student Life"
-    name = "Current Events"
+    name = "Life at Covenant"
     url = "life/events/"
 
     [[footer]]
