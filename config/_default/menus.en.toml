@@ -99,11 +99,13 @@ weight = 1
   parent = "School"
   name = "Home"
   url = "/"
+  weight = 1
 
   [[footer]]
   parent = "School"
   name = "Contact"
   url = "contact/"
+  weight = 2
 
 [[footer]]
 name = "About"
@@ -113,11 +115,31 @@ weight = 2
     parent = "About"
     name = "Our Story"
     url = "about/"
+    weight = 1
 
     [[footer]]
     parent = "About"
     name = "Our Teachers"
     url = "teacher/"
+    weight = 2
+
+    [[footer]]
+    parent = "About"
+    name = "Mission & Vision Statements"
+    url = "about/mission-vision/"
+    weight = 3
+
+    [[footer]]
+    parent = "About"
+    name = "Accreditation"
+    url = "about/accreditation/"
+    weight = 4
+
+    [[footer]]
+    parent = "About"
+    name = "Curriculum"
+    url = "about/curriculum/"
+    weight = 5
 
 [[footer]]
 name = "Admissions"
