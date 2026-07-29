@@ -1,7 +1,7 @@
 ---
 title: "Bowling"
 date: 2019-07-06T09:27:17.000Z
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description

@@ -61,7 +61,11 @@
 .success-video {
   min-height: 300px;
 
-  .play-btn {
+  .embed-video {
+      border: 0;
+  }
+
+  .play-btn, .embed-video {
     position: absolute;
     top: 50%;
     left: 0;

@@ -8,6 +8,11 @@ description: "The CCA Student Handbook is a comprehensive guide for students, pr
 ---
 
 ## Student Handbook
-<mark>⚠️ **this is a PLACEHOLDER for the student handbook** ⚠️</mark>
+<div class="alert alert-primary" role="alert">
+We'll post the 2026-2027 Student Handbook soon. Sorry for the incovnenience.
+</div>
 
-{{< embed_pdf path="pdfs/placeholder_flyer.pdf" >}}
+[//]: # (<mark>⚠️ **this is a PLACEHOLDER for the student handbook** ⚠️</mark>)
+
+[//]: # ()
+[//]: # ({{< embed_pdf path="pdfs/placeholder_flyer.pdf" >}})

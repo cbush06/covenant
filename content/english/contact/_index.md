@@ -12,7 +12,7 @@ description: "We are here to help you with any questions or concerns you may hav
 | Contact Method | Details                                      |
 |----------------|----------------------------------------------|
 | Phone          | <a href="tel:+12293521472">(229)352-1472</a> |
-| Email          | ccaalbany@gmail.com                          |
+| Email          | admissions@ccaalbany.org                     |
 
 ## Location
 
@@ -20,4 +20,4 @@ description: "We are here to help you with any questions or concerns you may hav
 
 ## Web Form
 
-<iframe id="JotFormIFrame-261917672096063" title="Contact Christian Covenant Academy" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allow="geolocation; microphone; camera; fullscreen; payment" src="https://form.jotform.com/261917672096063" frameborder="0" style="min-width:100%;max-width:100%;height:539px;border:none;" scrolling="no" > </iframe> <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script> <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-261917672096063']", "https://form.jotform.com/")</script>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCNBUHO63lQfZOJY1tP5_Euzn8NJWTlhe_VX4-QfpD1LBkmg/viewform?embedded=true" style="width: 100%; height: 1300px;" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

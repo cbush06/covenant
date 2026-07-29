@@ -29,6 +29,12 @@ weight = 1
     url = "about/accreditation/"
     weight = 4
 
+    [[main]]
+    parent = "About"
+    name = "Curriculum"
+    url = "about/curriculum/"
+    weight = 5
+
 [[main]]
 name = "Admissions"
 url = "course/"

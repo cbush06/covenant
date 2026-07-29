@@ -2,20 +2,33 @@
 
 {{ with $data.homepage.success_story }}
 <section class="section bg-cover" data-background="{{ (resources.Get .bg_image).Permalink }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-sm-4 position-relative success-video">
-        <a class="play-btn venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">
-          <i class="ti-control-play"></i>
-        </a>
-      </div>
-      <div class="col-lg-6 col-sm-8">
-        <div class="bg-white p-5">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
-          <p>{{ .content | markdownify }}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-4 position-relative success-video">
+                <!--        <a class="play-btn venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">-->
+                <!--          <i class="ti-control-play"></i>-->
+                <!--        </a>-->
+                <iframe
+                    width="560"
+                    height="315"
+                    class="embed-video"
+                    src="{{ .video_link | safeURL }}"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-lg-6 col-sm-8">
+                <div class="bg-white p-5">
+                    <h2 class="section-title">{{ .title | markdownify }}</h2>
+                    <p>{{ .content | markdownify }}</p>
+                    {{ if .button }}
+                    <a href="{{ .button.link | absLangURL }}" class="btn btn-sm btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
+                    {{ end }}
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 {{ end }}
