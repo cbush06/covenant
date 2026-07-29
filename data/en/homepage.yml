@@ -119,7 +119,7 @@ success_story:
   video_link: https://www.youtube.com/embed/7haJwOoOa2g?si=VUuBIWuvNKTlrhil
   button:
     label: "Learn About Our Curriculum"
-    link: "https://aceschooloftomorrow.com/about-us"
+    link: "about/curriculum/"
 
 
 ############################# event ################################
