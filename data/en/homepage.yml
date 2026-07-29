@@ -52,7 +52,7 @@ banner_feature:
       icon: "ti-book" # icon pack: https://themify.me/themify-icons
       content: "We use the Accelerated Christian Education (ACE) curriculum--biblically based learning program that allows students to learn at their own pace."
       button:
-        link: "https://aceschooloftomorrow.com/about-us"
+        link: "about/curriculum/"
         label: "Learn more about ACE"
         target: "_blank"
 
