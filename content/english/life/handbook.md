@@ -1,8 +1,6 @@
 ---
 title: "Student Handbook"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description: "The CCA Student Handbook is a comprehensive guide for students, providing essential information about academic policies, campus resources, and student life. It serves as a valuable resource to help students navigate their educational experience. It also outlines what CCA expects of students and what students can expect from CCA."
 ---

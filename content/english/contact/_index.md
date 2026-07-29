@@ -1,8 +1,6 @@
 ---
 title: "Contact Us"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description: "We are here to help you with any questions or concerns you may have. Please feel free to reach out to us through the contact form below, via email, or phone. We look forward to hearing from you!"
 ---

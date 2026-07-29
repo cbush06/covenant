@@ -1,8 +1,6 @@
 ---
 title: "Tuition"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description: "Believing that God equips every family He calls, we offer multiple payment options to help make Christian education possible."
 ---

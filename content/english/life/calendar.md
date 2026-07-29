@@ -1,8 +1,6 @@
 ---
 title: "School Calendar"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description: "Monitor this calendar for important dates and events at CCA."
 ---

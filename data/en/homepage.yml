@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable: true
-  bg_image: "images/banner/banner-1.jpg"
+  bg_image: "images/banner/banner-1.png"
   slider_item:
     # slider item loop
     - title: "An education founded in the Word of God"

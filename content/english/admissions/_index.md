@@ -1,8 +1,6 @@
 ---
 title: "Admissions Process"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description: "Covenant Christian Academy strives to make the admissions process as simple, painless, and welcoming as possible."
 ---

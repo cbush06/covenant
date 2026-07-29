@@ -1,8 +1,6 @@
 ---
 title: "Apply"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description: "The first step of any journey is always the hardest, but we've tried to make it easy for you."
 ---
