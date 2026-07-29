@@ -54,7 +54,6 @@ banner_feature:
       button:
         link: "about/curriculum/"
         label: "Learn more about ACE"
-        target: "_blank"
 
     # feature item loop
     - name: "Mission Statement"
