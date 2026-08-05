@@ -78,6 +78,11 @@ hasChildren = true
   name = "Student Handbook"
   url = "life/handbook/"
 
+  [[main]]
+  parent = "Student Life"
+  name = "Photo Gallery"
+  url = "life/gallery/general/"
+
 #[[main]]
 #name = "blog"
 #url = "blog/"
@@ -181,3 +186,8 @@ weight = 4
     parent = "Student Life"
     name = "Student Handbook"
     url = "life/handbook/"
+
+    [[footer]]
+    parent = "Student Life"
+    name = "Photo Gallery"
+    url = "life/gallery/general/"

@@ -1,11 +1,13 @@
-<div id="pdf-viewer" style="height: 100vh"></div>
+{{ $id := math.Rand | math.Mul 10000 | math.Ceil }}
+
+<div id="pdf-viewer-{{ $id }}" style="height: 100vh"></div>
 
 <script type="module">
     import EmbedPDF from 'https://cdn.jsdelivr.net/npm/@embedpdf/snippet@2/dist/embedpdf.js';
 
     EmbedPDF.init({
         type: 'container',
-        target: document.getElementById('pdf-viewer'),
+        target: document.getElementById('{{ $id }}}}'),
         src: '{{ (.Get "path") | absURL }}',
         theme: { preference: 'system' },
         disabledCategories: ['annotation', 'form', 'shapes', 'redaction', 'document-capture', 'document-open', 'document-close', 'panel-comment', 'tools', 'insert', 'security'],
