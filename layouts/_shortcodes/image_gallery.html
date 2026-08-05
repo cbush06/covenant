@@ -1,16 +1,13 @@
-{{ $dir := .Get "dir" }}
-{{ $images := readDir $dir }}
+{{ $gallery := .Get "gallery" }}
+{{ $images := resources.Match (printf "images/galleries/%s/*" $gallery) }}
 {{ $id := math.Rand | math.Mul 10000 | math.Ceil }}
 
 <div class="card-columns">
 {{ range $images }}
-    {{ if not .IsDir }}
-    {{ $imagePath := (printf "%s/%s" ($dir | replaceRE `^/?static/?` ``) .Name) | absURL }}
     <div class="card p-0">
-        <a class="venobox" href="{{ $imagePath }}" data-gall="imggal-{{ $id }}" data-fitview="true">
-            <img src="{{ $imagePath }}" class="card-img mb-0" />
+        <a class="venobox" href="{{ .RelPermalink }}" data-gall="imggal-{{ $id }}" data-fitview="true">
+            <img src="{{ (.Fit "500x800 Center").RelPermalink }}" class="card-img mb-0" />
         </a>
     </div>
-    {{ end }}
 {{ end }}
 </div>

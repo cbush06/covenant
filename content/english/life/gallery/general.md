@@ -4,4 +4,4 @@ draft: false
 description: "Check out all the great things happening at CCA!"
 ---
 
-{{< image_gallery dir="static/images/galleries/general" >}}
+{{< image_gallery gallery="general" >}}
